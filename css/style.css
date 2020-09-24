@@ -25,9 +25,10 @@ body {
 }
 
 .post-container{
-  width: 80%;
-  max-width: 80%;
-  height: 30%;
+  width: 60%;
+  max-width: 650px;
+  height: 35%;
+  max-height: 500px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -38,7 +39,7 @@ body {
 .post-picture{
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  width: 50%;
+  width: 65%;
   height: 100%;
   background-size: cover;
   background-image: url('../images/drawers.jpg');

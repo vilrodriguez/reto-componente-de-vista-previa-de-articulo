@@ -16,6 +16,7 @@ html {
   font-size: 13px;
   font-family: 'Manrope', sans-serif;
   background-color: var(--light-grayblue);
+  color: #b6e2ff;
 }
 
 body {
@@ -77,6 +78,9 @@ body {
   align-items: center;
   flex-direction: row;
 }
+.post-wrapper .share{
+  margin: 0 0 0 auto;
+}
 
 .post-wrapper .post-author>img {
   width: 3rem;
@@ -94,14 +98,65 @@ body {
   color: var(--gray-blue);
 }
 
-
-
-.article-content__container .autor-container .autor-container .autor-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.post-wrapper section.post-author>button.share {
+  background: var(--gray-blue);
+  border-style: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
+
+.nav{
+  border: 2px solid green;
+  width: 15rem;
+  position: relative;
+}
+.link-container{
+  top: 47%;
+  right: 22%;
+  display: flex;
+  z-index: 1000;
+  width: 17rem;
+  height: 3.5rem;
+  position: absolute;
+  align-items: center;
+  border-radius: 0.7rem;
+  justify-content: center;
+  background:var(--dark-grayblue);
+  padding: 0;
+  border: 2px solid red;
+}
+.link-container ul{ 
+  position: absolute;
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.link-container ul li:nth-child(1){
+  font-size: 0.8rem;
+  color: var(--gray-blue);
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.link-container ul li > a >img.social-link-img {
+  width: 1.3rem;
+}
+
+.post-wrapper .triangle-shape {
+  position: relative;
+  top: 55%;
+  right: 0%;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid var(--dark-grayblue);
+  ;
+}
+
 
 /*- Desktop: 1440px 
 - Mobile: 375px*/

@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Article preview component</title>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <main class="post-container">
-    <figure class="post-picture">
 
-    </figure>
-    <div class="post-wrapper">
-      <section class="post-content">
-        <h2 class="post-title">
-          Shift the overall look and feel by adding these wonderful touches to furniture in your home
-        </h2>
-        <p class="post-p">
-          Ever been in a room and felt like something was missing?. Perhaps it felt slightly bare and uninviting.’ve got some simple tips to help you make any room feel complete.
-        </p>
-      </section>
-      <section class="post-author">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Article preview component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <main class="post-container">
+      <figure class="post-picture">
+
+      </figure>
+      <div class="post-wrapper">
+        <section class="post-content">
+          <h2 class="post-title">
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </h2>
+          <p class="post-p">
+            Ever been in a room and felt like something was missing?. Perhaps it felt slightly bare and uninviting.’ve
+            got some simple tips to help you make any room feel complete.
+          </p>
+        </section>
+        <section class="post-author">
           <img src="./images/avatar-michelle.jpg" alt="Author picture">
+
           <div class="author">
             <h4 class="author-name">Michelle Appleton</h4>
             <span class="autor-date">28 Jun 2020</span>
           </div>
-          <div hidden>
+        </section>
+        <nav class="nav">
+          <div class="link-container">
             <ul>
-              <li><a href="http://"></a></li>
-              <li><a href="http://"></a></li>
-              <li><a href="http://"></a></li>
+              <li>SHARE</li>
+              <li>
+                <a href="http://">
+                  <img class="social-link-img" src="./images/icon-facebook.svg" alt="Facebook link"></a></li>
+              <li>
+                <a href="http://">
+                  <img class="social-link-img" src="./images/icon-twitter.svg" alt="Twitter link"></a></li>
+              <li>
+                <a href="http://">
+                  <img class="social-link-img" src="./images/icon-pinterest.svg" alt="Pinterest link"></a></li>
             </ul>
+            <div class="triangle-shape"></div>
           </div>
-      </section>
-    </div>
-  </main>
-  
-  <!-- <div class="attribution">
+          <button class="share"><img src="./images/icon-share.svg" alt="Share in social media Icon"></button>
+        </nav>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-  <script src="https://kit.fontawesome.com/c0b6d599a7.js" crossorigin="anonymous"></script>
-</body>
+    <script src="https://kit.fontawesome.com/c0b6d599a7.js" crossorigin="anonymous"></script>
+  </body>
+
 </html>
